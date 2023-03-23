@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://images.tcdn.com.br/img/img_prod/489230/cronometro_tradicional_de_altissima_qualidade_de_2_coroas_122_0101_00_hanhart_721_1_7628ae4a280d4c34fe642e1987f0611a.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="kronus.js"></script>
+    <title>Cronômetro</title>
+</head>
+
+<body>
+
+    <div class="cronometro">
+        <h1>Cronômetro</h1>
+
+        <p class="numeros"><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+
+        <div class="btns">
+            <button id="button-start" class="start" onclick="start()">start/stop</button>
+            <div class="fundo-start"></div>
+            <button id="button-reset" class="reset" onclick="tempo()">Reset</button>
+            <div class="fundo-reset"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright&copy; | IOS | André Loewenstein</p>
+    </footer>
+
+</body>
+
+</html>
